@@ -2,12 +2,16 @@ const fs = require("fs")
 const inquirer = require('inquirer')
 const {SVG, Text, Square, Circle, Triangle} = require('./lib/shapes.js')
 
+const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt')
+inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
+
 inquirer
     .prompt([
         {
-            type: 'input',
+            type: 'maxlength-input',
             message: 'Type in a title for your image up to 3 characters',
-            name: 'title'
+            name: 'title',
+            maxLength: 3
         },
         {
             type: 'input',
