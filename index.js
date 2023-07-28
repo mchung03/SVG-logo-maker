@@ -1,6 +1,6 @@
 const fs = require("fs")
 const inquirer = require('inquirer')
-const {SVG, Text, Square} = require('./lib/shapes.js')
+const {SVG, Text, Square, Circle, Triangle} = require('./lib/shapes.js')
 
 inquirer
     .prompt([
@@ -31,8 +31,11 @@ inquirer
         let myShape;
         if(ans.shape == "Square") {
             myShape = new Square(ans.fill)
+        } else if(ans.shape == "Circle") {
+            myShape = new Circle(ans.fill)
+        } else {
+            myShape = new Triangle(ans.fill)
         }
-        // else if other shapes'
         const mySVG = new SVG(myShape, myText)
         fs.writeFile("examples/hw.svg", mySVG.render(), err => {
             if(err) {
