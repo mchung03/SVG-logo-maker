@@ -43,20 +43,3 @@ inquirer
             }
         })
     })
-
-
-// generate content of file
-    // generate svg tag
-    // generate svg shape
-    // generate text
-    // put all into one string
-
-
-
-// write file
-
-function createText(fillColor, text, textColor, shape) {
-    // return string with HTML tag            fillColor and text
-    const newShape = new Triangle()
-
-}
