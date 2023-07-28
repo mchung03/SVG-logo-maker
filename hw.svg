@@ -1,0 +1,11 @@
+<!-- 
+<svg width="250" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="250" height="250" fill="blueviolet" />
+  <text xmlns="http://www.w3.org/2000/svg" x="125" y="125" font-size="50" text-anchor="middle" fill="white">ABC</text>
+</svg> -->
+
+<svg width="250" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="250" height="250" fill="blueviolet" />
+        
+            <text xmlns="http://www.w3.org/2000/svg" x="125" y="125" font-size="50" text-anchor="middle" fill="red">AB</text>
+        </svg>
