@@ -41,5 +41,6 @@ inquirer
             if(err) {
                 console.log(err)
             }
+            console.log("Generated logo.svg")
         })
     })
