@@ -1,7 +1,6 @@
 const fs = require("fs")
 const inquirer = require('inquirer')
 const {SVG, Text, Square, Circle, Triangle} = require('./lib/shapes.js')
-
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt')
 inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
 
