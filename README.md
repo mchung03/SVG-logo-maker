@@ -4,6 +4,8 @@
 
 The SVG logo maker creates a logo based on the user's input of a shape, fill color, text, and text color. It solves the problem of having to create logos in an editor and generates it in less than a minute. I learned to use SVG, node.js, and classes with elemenets and methods.
 
+Video Demonstration: (https://drive.google.com/file/d/1d26KOTo2wda7LswdhyDCuNuptjel9RRT/view)
+
 ## Table of Contents 
 
 - [Installation](#installation)
